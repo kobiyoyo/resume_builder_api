@@ -74,7 +74,7 @@ The API will run at `http://localhost:3000`
 Example POST request to create a resume:
 ```
 POST http://localhost:3000/api/v1/resumes
-Authorization: Bearer <auth_token>
+Authorization:  <auth_token>
 Content-Type: application/json
 
 {
