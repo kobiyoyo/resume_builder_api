@@ -68,39 +68,3 @@ rails s
 
 The API will run at `http://localhost:3000`
 
----
-
-## 🧪 Test the API with Postman
-Example POST request to create a resume:
-```
-POST http://localhost:3000/api/v1/resumes
-Authorization:  <auth_token>
-Content-Type: application/json
-
-{
-  "resume": {
-    "personal_info": { ... },
-    "education": [ ... ],
-    "experience": [ ... ],
-    "skills": [ ... ],
-    "projects": [ ... ],
-    "certifications": [ ... ]
-  }
-}
-```
-
----
-
-## ✍️ Author
-- Resume Builder by [Your Name]
-
----
-
-## 📂 Folder Structure
-```
-/resume-builder
-├── frontend (Next.js app)
-└── backend  (Rails API)
-```
-
-Let me know if you need deploy instructions or Docker support!
